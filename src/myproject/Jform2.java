@@ -5,7 +5,7 @@
  */
 package myproject;
 
-import java.awt.Color;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.text.DateFormat;
@@ -26,7 +26,7 @@ public class Jform2 extends JFrame implements ActionListener {
     String[] numbers =  {null,null,null,null,null}; 
     java.util.Date[] h= {null , null ,null ,null ,null};
     Date current= new Date();
-    DateFormat dateFormat = new SimpleDateFormat("yyyy-mm-dd hh:mm:ss");
+    DateFormat dateFormat = new SimpleDateFormat("yyyy-mm-dd");
     
     
     
@@ -162,7 +162,7 @@ public class Jform2 extends JFrame implements ActionListener {
           add(his3);
            add(his4);
             add(his5);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             
          
         this.atm = atm1;
